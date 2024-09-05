@@ -1,7 +1,7 @@
 # This is a calculator program for doing basic math incorporating for loops and if, elif conditional statements
 # loop program 5 times
 for i in range(0,5):
-    print("Welcome to my Calculator" '\n' "1=Addition 2=Subtraction 3=Multiplication 4=Division")
+    print(f"Welcome to my Calculator!",5-i,"more trial uses left!" '\n' "1=Addition 2=Subtraction 3=Multiplication 4=Division")
     MathChoice = int(input("Choose the type of math you want calculate:"))
 
     if MathChoice == 2:
