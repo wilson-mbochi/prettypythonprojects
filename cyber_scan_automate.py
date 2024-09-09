@@ -1,9 +1,9 @@
 print ("\n----------- We're going to conduct the following tasks: ----------- \n"
-       "1. Scan hosts on a network by ip or domain name \n"
-       "2. Identify the hosts with most open ports and services \n"
-       "3. Run a vulnerability scan on it \n"
-       "4. Pull the logs of the machine \n"
-       "5. Analyze the logs for any suspicious processes \n"
+       "1. Scan hosts on a network by ip or domain name using python-nmap module \n"
+       "2. Identify the hosts with most open ports and services using -sV option \n"
+       "3. Run a vulnerability scan on it using nmap vuln script \n"
+       "4. Pull the logs of the machine using wmi module \n"
+       "5. Analyze the logs for any suspicious processes using regular expressions module \n"
        "-------------------------------------------------------------------- \n")
 
 print("Please download and install the following Python package modules before running script:\n"
